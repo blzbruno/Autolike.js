@@ -5,7 +5,6 @@ A bookmarklet for automatically liking each post on any facebook wall.
 Instructions
 ============
 - Copy the code from autolike.js and put it in a bookmark in your bookmarks toolbar
- - Or you can drag this link straight to your bookmarks toolbar: <a href="javascript:var%20delay=2000;function%20like(){elem=like_links[cnt];if(elem==undefined){clearInterval(timer);return}cnt++;elem.scrollIntoView(false);elem.style.backgroundColor='#00FF00';elem.click()}var%20cnt=0;var%20links=document.getElementsByTagName('a');var%20like_links=new%20Array;for(i%20in%20links){if(links[i].className=='UFILikeLink'&&links[i].title=='Like%20this'){like_links.push(links[i])}}timer=setInterval(like,delay);void%200" title="Autolike This">Autolike this</a>
 - Go to a facebook page
 - Click the bookmarklet and watch as each post is automatically 'liked'!
 - Go get a burrito to celebrate and think about all the time and critical brain power you'll save by indiscriminately liking every facebook post you come across. Let Autolike.js do it's job while you do important non-facebook related tasks.
