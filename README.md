@@ -17,7 +17,7 @@ Features
 
 Configuration
 =============
-- The default delay is set to 2.0 seconds, which seems to be long enough to no automatically get moderated by the facebook system
+- The default delay is set to 2.0 seconds, which seems to be long enough to not automatically get moderated by the facebook system
 - Change the delay by changing <i>var%20delay=2000</i> to a different number of milliseconds
 
 Notes
