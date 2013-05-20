@@ -14,6 +14,7 @@ Features
 - Likes links one at a time, with a definable delay between each like (so you don't get banned!)
 - Scrolls the page automatically, so you can see what's happening and this also will load more posts so you can like things forever!
 - Turns each 'like'd link green so you can see it's working
+- Auto like everything on your own wall or others!
 
 Configuration
 =============
