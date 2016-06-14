@@ -1,1 +1,26 @@
-javascript:var%20delay=2000;function%20like(){elem=like_links[cnt];if(elem==undefined){clearInterval(timer);return}cnt++;elem.scrollIntoView(false);elem.style.backgroundColor='#00FF00';elem.click()}var%20cnt=0;var%20links=document.getElementsByTagName('a');var%20like_links=new%20Array;for(i%20in%20links){if(links[i].className=='UFILikeLink'&&links[i].title=='Like%20this'){like_links.push(links[i])}}timer=setInterval(like,delay);void%200
+javascript: var delay = 2000;
+
+function like() {
+    elem = like_links[cnt];
+    if (elem == undefined) {
+        clearInterval(timer);
+        return
+    }
+    cnt++;
+    elem.scrollIntoView(false);
+    elem.style.backgroundColor = '#00FF00';
+    elem.click()
+}
+function hasClass(element, cls) {
+    return (' ' + element.className + ' ').indexOf(' ' + cls + ' ') > -1;
+}
+var cnt = 0;
+var links = document.getElementsByTagName('a');
+var like_links = new Array;
+for (i in links) {
+    if (hasClass(links[i] , 'UFILikeLink') && links[i].text == 'Like' && links[i].getAttribute("aria-pressed") == "false") {
+        like_links.push(links[i])
+    }
+}
+timer = setInterval(like, delay);
+void 0;
