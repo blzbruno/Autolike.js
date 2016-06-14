@@ -18,7 +18,7 @@ var cnt = 0;
 var links = document.getElementsByTagName('a');
 var like_links = new Array;
 for (i in links) {
-    if (hasClass(links[i] , 'UFILikeLink') && links[i].text == 'Like') {
+    if (hasClass(links[i] , 'UFILikeLink') && links[i].text == 'Like' && links[i].getAttribute("aria-pressed") == "false") {
         like_links.push(links[i])
     }
 }
