@@ -1,4 +1,4 @@
-javascript: var delay = 2000;
+var delay = 500;
 
 function like() {
     elem = like_links[cnt];
@@ -18,9 +18,16 @@ var cnt = 0;
 var links = document.getElementsByTagName('a');
 var like_links = new Array;
 for (i in links) {
-    if (hasClass(links[i] , 'UFILikeLink') && links[i].text == 'Like' && links[i].getAttribute("aria-pressed") == "false") {
+    if (hasClass(links[i] , 'UFILikeLink') && links[i].text == 'Curtir' && links[i].getAttribute("aria-pressed") == "false") {
         like_links.push(links[i])
     }
 }
+//Scroll Down Functions Testing
+//function scrolldown(){
+//    window.scrollTo(0,document.body.scrollHeight);
+//}
+
+// timer2 = setInterval(scrolldown, 100);
 timer = setInterval(like, delay);
+
 void 0;
