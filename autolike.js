@@ -22,12 +22,7 @@ for (i in links) {
         like_links.push(links[i])
     }
 }
-//Scroll Down Functions Testing
-//function scrolldown(){
-//    window.scrollTo(0,document.body.scrollHeight);
-//}
 
-// timer2 = setInterval(scrolldown, 100);
 timer = setInterval(like, delay);
 
 void 0;
