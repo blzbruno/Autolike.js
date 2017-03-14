@@ -4,7 +4,8 @@ A bookmarklet for automatically liking each post on any facebook wall.
 
 Instructions
 ============
-- Copy the code from autolike.js and put it as the URL in a bookmark in your bookmarks toolbar
+- Copy the code from scrolldown.js and put it as the URL in your console to load all posts.
+- After all post is showing, copy the code from autolike.js and put it in your console.
 - Go to a facebook page
 - Click the bookmarklet and watch as each post is automatically 'liked'!
 - Go get a burrito to celebrate and think about all the time and critical brain power you'll save by indiscriminately liking every facebook post you come across. Let Autolike.js do it's job while you do important non-facebook related tasks.
@@ -18,8 +19,8 @@ Features
 
 Configuration
 =============
-- The default delay is set to 2.0 seconds, which seems to be long enough to not automatically get moderated by the facebook system
-- Change the delay by changing <i>var%20delay=2000</i> to a different number of milliseconds
+- The default delay is set to 0.5 seconds, which seems to be long enough to not automatically get moderated by the facebook system
+- Change the delay by changing <i>var%20delay=500</i> to a different number of milliseconds
 
 Notes
 =====
