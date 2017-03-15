@@ -1,6 +1,6 @@
 Autolike.js (PT-BR Version)
 ===========
-A bookmarklet for automatically liking each post on any facebook wall.
+A javascript code to automatically liking each post on any facebook wall.
 
 Instructions
 ============
